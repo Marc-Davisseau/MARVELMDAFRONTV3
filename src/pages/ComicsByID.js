@@ -12,7 +12,7 @@ const ComicsId = () => {
     const fetchData = async (req, res) => {
   
       const response = await axios.post(
-        "https://marvelbackmda.herokuapp.com/:comicsId",
+        "https://marvelmdabackv3.herokuapp.com/:comicsId",
         {
           id: id,
         }

@@ -11,7 +11,7 @@ const Commicstitle = (props) => {
             const fetchData = async () => {
         
               const response = await axios.post(
-                "https://marvelbackmda.herokuapp.com/comics/:comicsId",
+                "https://marvelmdabackv3.herokuapp.com/comics/:comicsId",
         {
           id: props.id,
         }

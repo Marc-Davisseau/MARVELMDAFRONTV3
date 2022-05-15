@@ -23,7 +23,7 @@ console.log(username)
   return ( 
         <div className="menu">
  
-<img src="/Users/marcdavisseau/Downloads/LeReacteur/Projet Marvel/Front Marvel/my-app/src/img/Marvel_Logo.svg" alt="erg" />
+
           <section>    <Link to="/characters"><h1 className="headertitle first">Personnages</h1> </Link></section>
           <section>    <Link to="/comics"><h1 className="headertitle">   Comics</h1></Link></section>
           <section>    <Link to="/favorites"><h1 className="headertitle last"> Favoris</h1></Link></section>

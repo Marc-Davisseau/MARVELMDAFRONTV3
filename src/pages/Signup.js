@@ -23,7 +23,7 @@ const Signup = ({ setUser }) => {
       // axios.post("url", body)
 
       const response = await axios.post(
-        "https://marvelbackmda.herokuapp.com/user/signup",
+        "https://marvelmdabackv3.herokuapp.com/user/signup",
         {
           email: email,
           username: username,

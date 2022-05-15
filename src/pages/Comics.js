@@ -33,7 +33,7 @@ const Comics = () => {
      
 
       const response = await axios.post(
-        `https://marvelbackmda.herokuapp.com/comics`,
+        `https://marvelmdabackv3.herokuapp.com/comics`,
         //  "https://marvelbackmda.herokuapp.com/comics",
         // 'https://marvelbackmda.herokuapp.com/comics',
         {

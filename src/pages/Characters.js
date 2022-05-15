@@ -32,7 +32,7 @@ const Characters = () => {
       console.log(skip)
       console.log(pages)
       const response = await axios.post(
-        `https://marvelbackmda.herokuapp.com/characters`,
+        `https://marvelmdabackv3.herokuapp.com/characters`,
         {
           skip: skip,
           name: term

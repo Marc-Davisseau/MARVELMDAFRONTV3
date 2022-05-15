@@ -17,7 +17,7 @@ console.log("hello id")
     const fetchData = async () => {
       console.log(id)
       const response = await axios.post(
-        `https://marvelbackmda.herokuapp.com/character/:characterId`, {
+        `https://marvelmdabackv3.herokuapp.com/character/:characterId`, {
             id: id
         }
       );
